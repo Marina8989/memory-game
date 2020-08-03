@@ -61,12 +61,13 @@ function createDivsForColors(colorArray) {
 function handleCardClick(event) {
   // you can use event.target to see which element was clicked
   console.log("you just clicked", event.target);
-  event.target.style.background = event.target.className;
-    //setTimeout(() => {
-      // event.target.style.background = event.target.className;
-    // }, 1000);
- 
 
+      event.target.style.background = event.target.className;
+   
+    setTimeout(() => {
+        event.target.style.background = 'none';
+    }, 1000);
+ 
 }
 
 // when the DOM loads
