@@ -7,6 +7,17 @@
   height: 100px;
   background-color: #eee;
 }
+.card.done {
+  cursor: default;
+}
+.card.done:hover{
+  box-shadow: none;
+}
+.card:hover{
+  box-shadow: inset 0px 0px 0px 1px red;
+  box-sizing: border-box;
+}
+
 .red{
   background: red;
 }
