@@ -1,11 +1,37 @@
-#game div {
-  border: 1px solid black;
-  width: 15%;
-  height: 200px;
-  margin: 10px;
+.row{
+  text-align: center;
+}
+.card{
   display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+}
+.red{
+  background: red;
+}
+.pink{
+  background: pink;
+}
+.green{
+  background: green;
+}
+.yellow{
+  background: yellow;
+}
+.blue{
+  background: blue
+}
+.teal{
+  background: teal;
+}
+.orange{
+  background: orange;
+}
+.cyan{
+  background: cyan;
 }
 
-.flip{
-  transform: rotateY(180deg);
+.color-hidden {
+  background-color: #eee;
 }
